@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    justify-content: center;
+    display: flex;
+}
+.menu a{
+    height: 50px;
+    width: 50px;
+    background-color: #ddd;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.menu a+a{
+    margin-left: 6px;
+}
+.menu a:hover{
+    background-color: #ccc;
+}
+.menu a:active{
+    background-color: #d10953;
+    color: #fff;
+}

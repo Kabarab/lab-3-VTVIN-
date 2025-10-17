@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #f8f8f8;
+}
+.Reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Reg input{
+    margin: 5px;
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.Reg input+input{
+    margin-top: 15px;
+}
+
+.Reg button{
+    margin: 5px;
+    width: 320px;
+    height: 50px;
+    font-size: 16px;
+    background-color: #1cbc11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Reg button:hover{
+    background-color: #14a20a;
+}

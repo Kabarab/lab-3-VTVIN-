@@ -1,0 +1,33 @@
+
+header{
+    margin: 0;
+    height: 8%;
+    width: 100%;
+    background-color:mediumpurple;
+    
+    text-align: center;
+}
+.header_text{
+    color: white;
+    font-size: 40px;
+    padding-top: 15px;
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid blue;
+}
+main{
+    height: 92%;
+    width: 100%;
+}
+content{
+    margin-top: 10px;
+    margin-left: 10%;
+    position: absolute;
+    height: 90%;
+    width: 80%;
+    border: 1px solid black;
+    float: right;
+}

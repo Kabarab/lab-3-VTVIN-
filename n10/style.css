@@ -1,0 +1,61 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+img{
+    position: absolute;
+}
+.fon{
+    width: 600px;
+    height: 400px;
+}
+
+.uran{
+    position: absolute;
+    width: 200px;
+    margin-left: 100px;
+}
+.neptun{
+    position: absolute;
+    width: 300px;
+    margin-top: 20px;
+    z-index: 1;
+}
+.venera{
+    position: absolute;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 30px;
+    z-index: 3;
+}
+.raketa{
+    position: absolute;
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+    z-index: 2;
+}
+.nlo{
+    position: absolute;
+    width: 150px;
+    margin-top: 250px;
+    margin-left: 50px;
+    z-index: 4;
+}
+.meteor{
+    position: absolute;
+    width: 80px;
+    
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 400px;
+    z-index: 5;
+}
+.lego{
+    position: absolute;
+    width: 120px;
+    margin-top: 288px;
+    margin-left: 480px;
+    z-index: 6;
+}

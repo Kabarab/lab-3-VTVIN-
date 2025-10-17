@@ -1,0 +1,27 @@
+
+header{
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
+main{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+}
+aside{
+    height: 1000px;
+    width: 20%;
+    border: 1px solid black;
+    
+}
+article{
+    height: 1000px;
+    width: 80%;
+    border: 1px solid black;
+}
+footer{
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+}
